@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --background-fondo: hsl(226, 43%, 10%);
+  --background-first-card: hsl(246, 80%, 60%);
+  --background-second-card: hsl(235, 46%, 20%);
+
+  --hover-second-card: hsl(236, 41%, 34%);
+  --text-first-card: hsl(236, 100%, 87%);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh !important;
+  background-color: var(--background-fondo) !important;
+  font-family: "Rubik", sans-serif !important;
+}
